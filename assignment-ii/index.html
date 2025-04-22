@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Journey</h1>
+    <h3>My Picture</h3>
+    <picture>
+      <source media="(max-width: 600px)" srcset="Recent_Picture.jpeg" />
+      <source media="(max-width: 1024px)" srcset="Recent_Picture.jpeg" />
+      <source media="(min-width: 1440px)" srcset="Recent_Picture.jpeg" />
+      <img src="Recent_Picture.jpeg" alt="My Picture" style="width: 300px" />
+    </picture>
+    <h3>Favourite Moment</h3>
+    <video style="width: 300px; height: 300px" controls>
+      <source src="Fav_Video.mp4" type="video/mp4" />
+    </video> 
+</body>
+</html>
